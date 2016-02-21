@@ -2,7 +2,7 @@
 #include "caja.h"
 #include <iostream>
 
-enum DONDE {VACIO,INICIO,MITAD, FINAL, FUERA };
+enum DONDE {VACIO,INICIO,MITAD, FINAL};
 
 template <typename T> class lista_doble {
 private:
